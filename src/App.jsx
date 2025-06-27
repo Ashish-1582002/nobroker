@@ -7,18 +7,9 @@ import RightSidebar from "./components/rightsidebar";
 
 const SearchHeader = () => {
   return (
-    <div className="bg-gray-50 min-h-screen">
+     <div className="bg-gray-50 min-h-screen">
       {/* Top Navigation Bar */}
       <div className="w-full flex flex-wrap items-center justify-between px-4 sm:px-6 py-3 border-b text-sm font-medium bg-white shadow-sm">
-        {/* Left Section */}
-        <div className="flex items-center gap-3">
-          <img
-            src="https://img.theweek.in/content/dam/week/news/biz-tech/images/2021/11/23/nobroker-logo.jpg"
-            alt="NoBroker"
-            className="h-10"
-          />
-          <span className="font-extrabold cursor-pointer text-lg">Rent</span>
-        </div>
 
         {/* Right Section */}
         <div className="flex items-center flex-wrap gap-3 sm:gap-4">
